@@ -1,10 +1,10 @@
 <?php
 
-	$cd_host = "127.0.0.1";
+	$cd_host = "remotemysql.com";
 	$cd_port = 3306;
 	$cd_socket = "";
-	$cd_user = "root";
-	$cd_password = "";
-	$cd_dbname = "companydirectory";
+	$cd_user = "l1KDMuuqj7";
+	$cd_password = "sE0oLJX5Cj";
+	$cd_dbname = "l1KDMuuqj7";
 
 ?>
