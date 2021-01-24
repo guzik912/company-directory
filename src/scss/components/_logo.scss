@@ -1,0 +1,37 @@
+.nav {
+  padding: 1rem;
+}
+
+.logo {
+  height: 100%;
+  min-width: 25%;
+  display: flex;
+  align-items: center;
+
+  &-text {
+    padding-top: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  &-box {
+    position: relative;
+    margin-right: .5rem;
+
+    &--front {
+      background: #717171;
+      width: 30px;
+      height: 30px;
+    }
+
+    &--behind {
+      position: absolute;
+      top: 5px;
+      left: -5px;
+      width: 30px;
+      height: 30px;
+      background: #62BCAA;
+    }
+  }
+}
